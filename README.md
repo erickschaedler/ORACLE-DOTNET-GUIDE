@@ -12,10 +12,3 @@ dotnet add package Oracle.ManagedDataAccess
 ```
 private readonly string _connectionString = "User Id=USUARIO;Password=SENHA;Data Source=localhost:1521/MeuDB"
 ```
-
-## Estrutura Task.WhenAll();
-```
-var tasks = list.Select<entrada, Task<saida>>(
-                async obj =>
-                {});
-```
